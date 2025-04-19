@@ -1,0 +1,26 @@
+.login{
+    height : 500px;
+    width : 500px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.login > img{
+    margin-left: 50%;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(237, 178, 67);
+}
+
+.smile{
+    margin-top: 20px;
+    margin-left: 100px;
+}

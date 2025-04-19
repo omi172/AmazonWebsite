@@ -1,0 +1,8 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 5px; /* Adds 20px space between child divs */
+    background-color: #f4f4f4;
+    margin-bottom : 50px;
+}
