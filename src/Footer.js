@@ -9,7 +9,6 @@ import {
   ListItemButton,
   ListItemText
 } from '@mui/material';
-import { FixedSizeList } from 'react-window';
 import Select from 'react-select';
 import countryList from 'react-select-country-list';
 
@@ -17,8 +16,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
 function renderRow(props) {
@@ -32,6 +29,8 @@ function renderRow(props) {
   );
 }
 
+<<<<<<< HEAD
+=======
 function VirtualizedList() {
   return (
     <Box sx={{ width: '35%', height: 400, maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -48,6 +47,7 @@ function VirtualizedList() {
   );
 }
 
+>>>>>>> c684d264f491de8ec5e6998126ed2d372df2f65e
 export default function Footer() {
   const [tabValue, setTabValue] = useState('one');
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -98,7 +98,7 @@ export default function Footer() {
       </Tabs>
 
       <Box sx={{ mt: 2 }}>
-        {tabValue === 'one' && <VirtualizedList />}
+        {tabValue === 'one' }
 
         {tabValue === 'two' && (
           <>
