@@ -1,3 +1,7 @@
+
+Project is under construction
+![amazon1](https://github.com/user-attachments/assets/41137348-8516-40eb-9634-cff0a0a16702)
+![Amazon2](https://github.com/user-attachments/assets/18dfbb64-0ff8-4c0a-897d-40e3c9528578)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
